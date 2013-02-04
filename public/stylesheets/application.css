@@ -1,0 +1,12 @@
+* { margin: 0;padding: 0; }
+
+body { font: normal 14px Arial, Tahoma, Sans-serif;background-color: #f0f0f0;color: #000;cursor: default; margin:0 auto; }
+body div.container { width:1000px; margin:0 auto; text-align:center; }
+body div.container div.header { margin: 50px 0; }
+body div.container div.header form input[type='text'] { height:28px; width:450px; padding:2px 4px; }
+body div.container div.header form .submit-btn { color:#FFF; padding:8px; font-weight:bold; background:#51A351;border: 1px solid #000; }
+body div.container div.wrapper { margin-bottom:50px; }
+body div.container div.wrapper ul.results { text-align:left; list-style:none; }
+body div.container div.wrapper ul.results li { padding:5px; }
+footer{ border-top: 1px solid #999; background:#eee; padding-top:30px;}
+footer p { text-align:center; font-size:10px; } 

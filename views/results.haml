@@ -1,0 +1,6 @@
+- unless @results.empty?
+  %ul.results
+    - @results.each do |result|
+      %li= "From: #{result.from_user} To: #{result.to_user} > #{result.text} / #{result.created_at}"
+- else
+  Sem Resultados
