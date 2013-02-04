@@ -6,7 +6,10 @@ body div.container div.header { margin: 50px 0; }
 body div.container div.header form input[type='text'] { height:28px; width:450px; padding:2px 4px; }
 body div.container div.header form .submit-btn { color:#FFF; padding:8px; font-weight:bold; background:#51A351;border: 1px solid #000; }
 body div.container div.wrapper { margin-bottom:50px; }
+body div.container div.wrapper p.no-results { font-size:1.1em; color:red; font-weight:bold; }
 body div.container div.wrapper ul.results { text-align:left; list-style:none; }
-body div.container div.wrapper ul.results li { padding:5px; }
-footer{ border-top: 1px solid #999; background:#eee; padding-top:30px;}
-footer p { text-align:center; font-size:10px; } 
+body div.container div.wrapper ul.results li { padding:15px 5px 5px 5px; border-bottom:1px solid #999; }
+body div.container div.wrapper ul.results li .from { font-size:1.2em; }
+body div.container div.wrapper ul.results li .tweet { padding:3px 0; }
+footer{ background:#f0f0f0; padding-top:30px; font-size:0.8em; padding:15px 0; }
+footer div.container { text-align:right; }

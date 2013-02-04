@@ -1,6 +1,6 @@
 - unless @results.empty?
   %ul.results
     - @results.each do |result|
-      %li= "From: #{result.from_user} To: #{result.to_user} > #{result.text} / #{result.created_at}"
+      %li= "<span class='from'>From: #{result.from_user}</span><br /><span class='tweet'>#{result.text}</span>"
 - else
-  Sem Resultados
+  %p.no-results No results for your search
